@@ -1,0 +1,18 @@
+extend layout
+block content
+    table
+        tr
+            th Socket ID
+            th Current Time
+            th Next Refresh Time
+        each record,index in data
+            tr
+                td=data[index].id
+                td=data[index].CurrentTime
+                td=data[index].NextTime
+block sidebar
+    div
+        button.btn.btn-primary(class='refreshButton' onclick='window.location.reload()') Refresh
+    div
+        form(method='post' action='/clearWindow')
+            button.btn.btn-primary(class='clearButton' type='Submit') Clear

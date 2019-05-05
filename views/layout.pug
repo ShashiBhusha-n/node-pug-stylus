@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    title #{title} - Refresh Time Logger (NodeJS)
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1 Refresh Time Logger (NodeJS)
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p(class=footer) 
+        | Running on 
+        a(href='https://nodejs.org') Node 
+        | Server with 
+        a(href='https://expressjs.com') Express
+        | , 
+        a(href='https://pugjs.org') Pug 
+        | and 
+        a(href='http://stylus-lang.com') Stylus
