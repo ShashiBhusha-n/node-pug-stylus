@@ -15,8 +15,21 @@
     "stylus": "^0.54.5"
   },
   "devDependencies": {},
+  "engines": {
+    "node": "10.15.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "rep
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShashiBhusha-n/node-pug-stylus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShashiBhusha-n/node-pug-stylus/issues"
+  },
+  "homepage": "https://github.com/ShashiBhusha-n/node-pug-stylus#readme"
+}
